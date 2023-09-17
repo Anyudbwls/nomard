@@ -1,0 +1,23 @@
+{
+  "name": "nomard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anyudbwls/nomard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anyudbwls/nomard/issues"
+  },
+  "homepage": "https://github.com/Anyudbwls/nomard#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
