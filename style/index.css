@@ -1,3 +1,40 @@
 .hidden {
   display: none;
 }
+body {
+  overflow: hidden;
+  width: fit-content;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.825);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#login-name {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 0;
+  border-radius: 10px;
+}
+
+.login-btn {
+  border-radius: 10px;
+  border: 0;
+  background-color: antiquewhite;
+  padding: 20px;
+  font-size: large;
+}
+.login-btn:active {
+  background-color: rgb(255, 183, 90);
+}

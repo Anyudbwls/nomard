@@ -7,22 +7,32 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome NomardCoder</h1>
-    </header>
-<article>
-<h2 id="clock"></h2>
-
-</article>
+    
     <section>
+      <h1>Welcome NomardCoder</h1>
+      <article>
+        <p id="clock"/>
+      </article>
       <form id="login-form" class="hidden">
         <input required maxlength="10" type="text" id="login-name" placeholder="이름을 입력해주세요"/>
         <input type="submit" value="login" class="login-btn"/>
       </form>
       <h1 id="greeting" class="hidden"></h1>
+
+
+      <form is="todo-form">
+        <input type="text" placeholder="할일을 입력 해보세요 " required/>
+      </form>
+
+      <ul is="todo-list">
+
+      </ul>
     </section>
     <script src="js/login.js"/></script>
     <script src="js/clock.js"/></script>
+    <script src="js/background.js"/></script>
+    <script src="js/todo.js"/></script>
+
 
   </body>
 </html>
